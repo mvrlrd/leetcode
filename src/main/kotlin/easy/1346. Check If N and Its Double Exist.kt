@@ -1,5 +1,8 @@
 package easy
 
+import java.util.concurrent.locks.Lock
+import java.util.concurrent.locks.ReentrantLock
+
 //Given an array arr of integers, check if there exist two indices i and j such that :
 //
 //i != j
@@ -27,6 +30,7 @@ package easy
 fun main(){
     val arr = intArrayOf(-2,0,10,-19,4,6,-8)
     println(checkIfExist(arr))
+
 }
 
 fun checkIfExist(arr: IntArray): Boolean {
