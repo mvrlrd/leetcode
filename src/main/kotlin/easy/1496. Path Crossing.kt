@@ -45,7 +45,7 @@ private fun isPathCrossing(path: String): Boolean {
     return false
 }
 
-data class Coord(var x:Int, var y:Int){
+private data class Coord(var x:Int, var y:Int){
 
     fun doMove(move: Char){
         when(move){
