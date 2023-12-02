@@ -28,7 +28,7 @@ package easy
 //The given edges represent a valid star graph.
 
 fun main(){
-
+  
 }
 
 private fun findCenter(edges: Array<IntArray>): Int {
